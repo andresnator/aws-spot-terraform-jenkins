@@ -9,9 +9,9 @@
 ## Configuración inicial
 
 -	Generación SSH
-	- Generar en el directorio *terraform_aws_ro*  key pair RSA , ejecutar ```sh  ssh-keygen -f aws_key ```
+	- Generar en el directorio *root*  key pair RSA , ejecutar ```sh  ssh-keygen -f aws_key ```
 - Configuración terraform.tfvars
-	- Crear el archivo terraform_aws_ro/terraform.tfvar. En este fichero se deben incluir las variables 
+	- Crear el archivo terraform.tfvar. En este fichero se deben incluir las variables 
         - ```AWS_ACCESS_KEY: key de usuario creado en aws (ver prerrequisitos)```
         - ```AWS_SECRET_KEY: secret de usuario creado en aws (ver prerrequisitos)```
 		- ```BLOCK_DURATION_MINUTES: tiempo de la instancia spot ```
