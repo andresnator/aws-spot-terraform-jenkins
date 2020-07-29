@@ -19,7 +19,7 @@
 		- ![Example, terraform.tfvar](terraform_tfvar.png "terraform.tfvar")
 
 
-> **Nota**: en este archivo se deben incluir las variables que se desean mantener en secreto o que se deseen > sobrescribir del archivo vars.tf
+> **Nota**: en este archivo se deben incluir las variables que se desean mantener en secreto o que se deseen  sobrescribir del archivo vars.tf
 
 
 ##  Creación de infraestructura
